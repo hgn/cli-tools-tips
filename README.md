@@ -9,7 +9,7 @@
 ### Plugings
 
 - ctrlp
-- easymotion
+- easymotion (leader command single `,`)
 - cscope
 
 ### Open Files
@@ -24,16 +24,12 @@ Command | Comment
 
 ### Motions
 
-- Easymotion installed (leader command single `,`)
-
 Command | Comment
 ---     | ---
 `,w` | easymotion forward
 `,b` | easymotion forward
 
 ### Marks & Jumps
-
-- Cscope installed
 
 Command | Comment
 ---     | ---

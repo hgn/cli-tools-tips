@@ -17,13 +17,22 @@
 
 ### Open Files
 
-- No fancy nerdtree
+- No fancy nerdtree, simple CTRLP
 
 Command | Comment
 ---     | ---
 `<CTRL> | start typing chars of filename and hit enter, really fast
 `:e .` | open netrw and provides list to open files
 `:e<TAB>` | same same but different
+
+Nerdtree specific:
+
+Command | Comment
+---     | ---
+`<CTRL>P` | open CTRL menu (subsequent commands are based on ctrlp)
+`<ENTER>`  | replace current buffer with new buffer
+`<ctrl-v>` | split window vertically and load new buffer
+`<ctrl-x>` | split window horizontal and load new buffer
 
 ### Motions
 

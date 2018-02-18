@@ -60,3 +60,10 @@ Command | Comment
 `p` | paste yank buffer
 `dd` | delete current line
 `D` | cut till end
+
+### Scrolling
+
+Command | Comment
+---     | ---
+`CTRL-Y` | scroll downwords
+`CTRL-E` | scroll upwords

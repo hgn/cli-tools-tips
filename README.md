@@ -65,5 +65,5 @@ Command | Comment
 
 Command | Comment
 ---     | ---
-`CTRL-Y` | scroll downwords
-`CTRL-E` | scroll upwords
+`CTRL-Y` | scroll downwards
+`CTRL-E` | scroll upwards

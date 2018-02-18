@@ -67,3 +67,10 @@ Command | Comment
 ---     | ---
 `CTRL-Y` | scroll downwards
 `CTRL-E` | scroll upwards
+
+### Csopes Movements
+
+Command | Comment
+---     | ---
+`CTRL-]` | follow defintion
+`CTRL-T` | backwards

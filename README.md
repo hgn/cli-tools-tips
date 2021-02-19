@@ -74,3 +74,63 @@ Command | Comment
 ---     | ---
 `CTRL-]` | follow defintion
 `CTRL-T` | backwards
+
+## Radare2
+
+### Common
+
+
+- analyze all: `aa`
+- show sections: `iS`
+- list functions: `afl`
+- list imports: `ii`
+- list entrypoints: `ie`
+- seek to function: `s main`
+
+### Function Handling
+
+- show basic block disassembly: `pdb`
+- show function disassembly: `pdf`
+- show function arguments: `afa`
+- show function variables: `afv`
+- rename function variable: `afvn`
+- set function variable type: `afvt`
+- add/analyze function: `af`
+
+### Visual Mode
+
+- enter visual mode: `V`
+- select function, variable, xref: `v`
+- quick command/seek: `_ <search string>`
+- show cursor: `c`
+- set function name: `d`
+- add comment: `;`
+
+### Graph Mode
+
+- enter graph modes: `VV`
+- cycle types of graphs:
+  - forward: `p`
+  - backwards: `P`
+
+- seek to function: `g<identifier>`
+- undo seek: `u`
+- define new function at cursor: `df`
+- show comments: `'`
+- add comment: `/`
+- add comment (complex): `:CC!`
+
+### Misc
+
+## analysis, assembly, memory ###
+
+- analyze functions: `af`
+- analyze stack: `ad@rsp` 
+- search for opcode: `/a`
+- search for rop/jop/etc: `/R`
+- search for bytes: `/x `
+- get offset for the actual seek point address: `?p`
+
+
+
+

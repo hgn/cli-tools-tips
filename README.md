@@ -79,13 +79,18 @@ Command | Comment
 
 ### Common
 
+```
+r2 -A -e io.cache=true <object>
+```
 
+- disass main: `pdf@main`
 - analyze all: `aa`
 - show sections: `iS`
 - list functions: `afl`
 - list imports: `ii`
 - list entrypoints: `ie`
 - seek to function: `s main`
+- add comment: `CC`
 
 ### Function Handling
 
@@ -93,6 +98,7 @@ Command | Comment
 - show function disassembly: `pdf`
 - show function arguments: `afa`
 - show function variables: `afv`
+- rename current fucntion: `afn`
 - rename function variable: `afvn`
 - set function variable type: `afvt`
 - add/analyze function: `af`
@@ -109,10 +115,7 @@ Command | Comment
 ### Graph Mode
 
 - enter graph modes: `VV`
-- cycle types of graphs:
-  - forward: `p`
-  - backwards: `P`
-
+- cycle types of graphs: `p`
 - seek to function: `g<identifier>`
 - undo seek: `u`
 - define new function at cursor: `df`
